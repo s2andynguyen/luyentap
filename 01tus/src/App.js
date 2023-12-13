@@ -36,7 +36,7 @@ function App() {
       </li>
     );
   });
-
+  
   return (
     <div className="App">
       <h1 className='app-title'>Tic-Tac-Toe Game</h1>

@@ -7,6 +7,7 @@ function Square({ value, onSquareClick }) {
   )
 }
 function Board({ xIsNext, squares, onPlay }) {
+  
   function handleClick(i) {
     if (squares[i] || checkWinner(squares)) return;
     const nextSquares = squares.slice();

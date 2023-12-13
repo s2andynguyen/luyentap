@@ -4,6 +4,7 @@ import TowayBinding from './form/TowayBinding'
 import Radio from './form/Radio'
 import Checkbox from './form/Checkbox'
 import TodoList from './form/TodoList'
+import Counter from './form/Counter'
 import './App.css'
 
 
@@ -16,6 +17,7 @@ function App() {
       <TowayBinding />
       <Radio />
       <Checkbox />
+      <Counter/>
     </div>
   );
 }

@@ -3,23 +3,46 @@
     background-color: #ffeeee;
     margin: 50px auto;
     padding: 30px;
-    display: flex;
-}
-.App .game-board,
-.App .game-info{
-    flex: 1 0 50%;
-    max-width: 50%;
 }
 .app-title {
     text-align: center;
     margin-bottom: 20px;
 }
+.game {
+    display: flex;
+}
+.game .game-board,
+.game .game-info{
+    flex: 1 0 50%;
+    max-width: 50%;
+}
+.game .game-info ol{
+    padding-left: 12px;
+}
+.game .game-info ol button {
+    margin-bottom: 4px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 .board {
     flex-wrap: wrap;
 }
-
+.board .status {
+    margin-bottom: 12px;
+}
 .board-row {
-    /* text-align: center; */
+    text-align: center;
+}
+.btn-wrapper {
+    text-align: end;
+}
+.btn-restart {
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin-top: 20px;
+    cursor: pointer;
 }
 .cell {
     cursor: pointer;

@@ -6,6 +6,8 @@ import Checkbox from './form/Checkbox'
 import TodoList from './form/TodoList'
 import Counter from './form/Counter'
 import './App.css'
+import UseReducer from './hook/UseReducer'
+import TodoReducer from './hook/TodoReducer'
 
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <TodoList />
       <UseState />
       <UseEffect />
+      <UseReducer/>
+      <TodoReducer />
       <TowayBinding />
       <Radio />
       <Checkbox />

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        
+        const products = [
+            { title: 'Cabbage', isFruit: false, id: 1 },
+            { title: 'Garlic', isFruit: false, id: 2 },
+            { title: 'Apple', isFruit: true, id: 3 },
+        ];
+        const handleNotice = (btn) => {
+            console.log('btn :>> ', btn);
+            alert('Clicked')
+        }
+        function ProductList() {
+            const list = products.map((product, index) => {
+                    return <li style={{color: product.isFruit ? 'magenta' : 'darkgreen'}} key={index}>
+                            {product.id} - {product.title} 
+                        </li>
+                })
+            return (
+                <div className="member" style={{ color: 'red' }}>
+                    <ul>{list}</ul>
+                    <button onClick={handleNotice}>Click me!</button>
+                </div>
+            )
+        }
+        const root = ReactDOM.createRoot(document.getElementById('root'))
+        root.render(
+            <ProductList />,
+        );
+
+
+
+
+    </script>
+</body>
+
+</html>

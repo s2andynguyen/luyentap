@@ -1,0 +1,22 @@
+# Bỏ qua các tệp nhị phân
+*.exe
+*.o
+*.pdf
+
+# Bỏ qua thư mục tạo bởi người dùng
+/useruploads/
+
+# Bỏ qua các tệp log và dữ liệu tạm thời
+*.log
+*.tmp
+
+# Bỏ qua thư mục node_modules của Node.js
+node_modules/
+
+# Bỏ qua các tệp cài đặt và thư mục cấu hình
+.env
+config/
+
+# Bỏ qua các tệp tạm thời của hệ thống quản lý gói
+.idea/
+.vscode/

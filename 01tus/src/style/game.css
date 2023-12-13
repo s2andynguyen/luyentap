@@ -1,0 +1,32 @@
+.App {
+    max-width: 600px;
+    background-color: #ffeeee;
+    margin: 50px auto;
+    padding: 30px;
+    display: flex;
+}
+.App .game-board,
+.App .game-info{
+    flex: 1 0 50%;
+    max-width: 50%;
+}
+.app-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.board {
+    flex-wrap: wrap;
+}
+
+.board-row {
+    /* text-align: center; */
+}
+.cell {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 32px;
+    font-weight: 600;
+}

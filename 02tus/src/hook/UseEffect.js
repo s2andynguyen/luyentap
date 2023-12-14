@@ -30,7 +30,6 @@ function Content() {
         }
     },[]);
 
-    console.log('re-render');
     return (
         <div className="">
             <h1 style={{ color: 'blue' }}>MOUTED !!!</h1>
@@ -39,13 +38,12 @@ function Content() {
                 Change title
             </label>
             <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} />
+            
             {tabs.map((tab) => {
                 return (
                     <button
                         key={tab}
-                        onClick={() => {
-                            setType(tab);
-                        }}
+                        onClick={() => setType(tab) }
                     >
                         {tab}
                     </button>
@@ -55,7 +53,7 @@ function Content() {
                     return (
                         <div className="" key={index}>
                             <h5>
-                                #{post.id} - {post.title}{' '}
+                                #{post.id} - {post.title}
                             </h5>
                             <p>{post.body}</p>
                         </div>

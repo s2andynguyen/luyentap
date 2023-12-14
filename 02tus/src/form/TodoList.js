@@ -16,7 +16,6 @@ function TodoList() {
             return newTodo;
         });
         setInput('');
-        console.log('todo :>> ', todo);
     };
     const removeTodo = (index) => {
         const newTodos = [...todos];

@@ -17,6 +17,7 @@ const courses = [
 
 function Checkbox() {
     const [checked, setChecked] = useState([]);
+    
     const handleCheck = (id) => {
         setChecked((prevState) => {
             const isCheck = checked.includes(id);

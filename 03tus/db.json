@@ -1,0 +1,67 @@
+{
+    "user": [
+        {
+            "id": 5816798,
+            "name": "Usha Iyer",
+            "email": "iyer_usha@pollich.test",
+            "gender": "female",
+            "status": "inactive"
+        },
+        {
+            "id": 5816797,
+            "name": "Devi Patil",
+            "email": "patil_devi@mann.example",
+            "gender": "female",
+            "status": "inactive"
+        },
+        {
+            "id": 5816796,
+            "name": "Bhaswar Achari",
+            "email": "achari_bhaswar@treutel.example",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 5816795,
+            "name": "Rukhmani Dubashi",
+            "email": "dubashi_rukhmani@hegmann.example",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 5816794,
+            "name": "Rev. Chinmayananda Shah",
+            "email": "chinmayananda_rev_shah@murazik-goodwin.example",
+            "gender": "male",
+            "status": "inactive"
+        },
+        {
+            "id": 5816792,
+            "name": "Sameer Pandey DO",
+            "email": "pandey_sameer_do@kovacek.test",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 5816791,
+            "name": "Marut Ganaka",
+            "email": "marut_ganaka@schiller.test",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 5816790,
+            "name": "Nirbhay Malik Sr.",
+            "email": "sr_malik_nirbhay@lang.example",
+            "gender": "male",
+            "status": "inactive"
+        },
+        {
+            "id": 5816789,
+            "name": "Aalok Dhawan DC",
+            "email": "dc_aalok_dhawan@hammes.example",
+            "gender": "male",
+            "status": "active"
+        }
+    ]
+}

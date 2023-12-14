@@ -5,11 +5,8 @@ function Counter() {
   const [total, setTotal] = useState(0);
 
   useEffect(() => {
-    console.log('useEffect :>> ');
     setTotal(() => count * 2)
   }, [count])
-
-  console.log('render :>> ');
 
   return (
     <div>
